@@ -418,14 +418,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
-        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="https://tabutility.com" className="flex items-center gap-2 text-indigo-600 hover:text-indigo-700 text-sm font-medium">
-            ← All Tools
-          </a>
-          <span className="text-xs text-gray-400">Free · No sign-up · Instant results</span>
-        </div>
-      </header>
+      <nav style={{background:'#1e293b',padding:'12px 20px',display:'flex',alignItems:'center',gap:16,borderBottom:'1px solid #334155',margin:'-0px'}}><span style={{color:'#fff',fontWeight:700,fontSize:16}}>⚡ Tabutility</span><a href="https://tabutility.com" style={{color:'#94a3b8',textDecoration:'none',fontSize:14}}>← All Tools</a></nav>
 
       <main className="max-w-5xl mx-auto px-4 py-8">
         {/* Hero */}
